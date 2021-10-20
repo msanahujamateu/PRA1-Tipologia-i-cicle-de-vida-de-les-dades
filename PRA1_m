@@ -1,0 +1,9 @@
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+
+res = requests.get('https://pitchfork.com/best/')
+res.status_code
+
+soup = BeautifulSoup(res.content)
+# print(soup.prettify())
