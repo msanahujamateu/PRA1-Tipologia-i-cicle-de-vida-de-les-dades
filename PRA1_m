@@ -1,0 +1,45 @@
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+import csv
+
+res = requests.get('https://pitchfork.com/best/')
+res.status_code
+
+soup = BeautifulSoup(res.content, 'html.parser')
+
+page_title = soup.find('h1', class_="bnm-page-title")
+# print(page_title.text)
+
+descripcio = soup.find('p', class_="page-desc")
+# print(descripcio.text)
+
+
+data = []
+
+clases = ['best-new-albums', 'best-new-tracks', 'best-new-reissues']
+artista, titol, genere = list(), list(), list()
+
+for artist in soup.find_all('ul', class_="artist-list"):
+    entry = {
+        'artista': artist.text
+    }
+    artista.append(artist.text)
+    data.append(entry)
+for titl in soup.find_all('h2', class_="title"):
+    entry = {
+        'titol': titl.text
+    }
+    data.append(entry)
+for gen in soup.find_all('li', class_="genre-list__item"):
+    entry = {
+        'genere': gen.text
+    }
+    data.append(entry)
+
+
+data_frame = pd.DataFrame(data)
+
+print(data_frame)
+
+data_frame.to_csv(r'dataset.csv',index=False)
