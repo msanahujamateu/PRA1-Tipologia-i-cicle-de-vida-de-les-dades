@@ -31,3 +31,34 @@ if __name__ == '__main__':
     print(len(reviews))
 
     print(BeautifulSoup(str(reviews[0]), 'lxml'))
+
+    artista, titol, genere = [], [], []
+
+    for artist in soup.find_all('ul', class_="artist-list"):
+        artista.append(artist.text)
+
+    for titl in soup.find_all('h3', class_="bnm-hero__title"):
+        titol.append(titl.text)
+
+    for titl in soup.find_all('h2', class_="title"):
+        titol.append(titl.text)
+
+    for genl in soup.find_all('ul', class_="genre-list genre-list--inline bnm-hero__genre-list"):
+        genere.append(genl.text)
+
+    for genl in soup.find_all('ul', class_="genre-list genre-list--inline"):
+        genere.append(genl.text)
+
+    genere.insert(16, '')  # Missing genre in web
+
+    data_dict = {'artist': artista, 'title': titol, 'genre': genere}
+
+    print(len(artista))
+
+    print(len(titol))  # Three of them have class bnm-hero__title, label h3
+
+    print(len(genere))
+
+    df = pd.DataFrame(data_dict)
+
+    df.to_csv(r'dataset.csv', index=False)
