@@ -1,6 +1,5 @@
 # PRA1-Tipologia-i-cicle-de-vida-de-les-dades
 PRA 1 Web Scraping
-_________________________________________________________________________________________________________________________________________________________________________________
 
 # Descripció
 
@@ -9,13 +8,11 @@ En aquest treball s’ha realitzat web scraping a la pàgina web https://pitchfo
 En aquest Web Scraping s’ha volgut emmagatzemar en un fitxer CSV els noms dels àlbums, cançons i reedicions juntament amb els noms dels artistes, el gènere i les URL de les revisions de cada una de les cançons. 
 
 Per fer-ho hem utilitzat les llibreries Requests, BeautifulSoup, Pandas i Urllib de Python.
-_________________________________________________________________________________________________________________________________________________________________________________
 
 # Memebres del grup
 
 Omar Brid Roufak
 Montse Sanahuja Mateu
-_________________________________________________________________________________________________________________________________________________________________________________
 
 # Fitxers del codi font
 
