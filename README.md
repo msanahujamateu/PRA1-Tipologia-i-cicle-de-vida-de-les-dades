@@ -31,4 +31,6 @@ python main.py
 
 # Recursos
 
+Lawson, R. (2015). Web Scraping with Python. Packt Publishing Ltd. Chapter 2. Scraping the Data.
 
+https://medium.com/@stephaniecaress/scraping-pitchforks-best-new-music-be563d18ea4f
