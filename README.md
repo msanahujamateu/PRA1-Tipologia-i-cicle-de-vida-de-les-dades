@@ -21,8 +21,11 @@ codi/main.py - programa principal per realitzar el web scraping
 Per executar aquest script és necessari instal·lar les llibreries següents:
 
 pip install pandas
+
 pip install requests
+
 pip install beautifulsoup4
+
 pip install urllib
 
 El script s’ha d’executar de la següent manera:
