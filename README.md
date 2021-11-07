@@ -1,5 +1,6 @@
 # Els millors àlbums i música segons Pitchfork
 Tipologia i cicle de vida de les dades
+
 PRA 1 Web Scraping
 
 # Descripció
