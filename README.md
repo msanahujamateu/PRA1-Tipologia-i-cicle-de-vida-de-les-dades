@@ -28,7 +28,7 @@ pip install requests
 
 pip install beautifulsoup4
 
-pip install urllib
+pip install urllib3
 
 El script s’ha d’executar de la següent manera:
 
