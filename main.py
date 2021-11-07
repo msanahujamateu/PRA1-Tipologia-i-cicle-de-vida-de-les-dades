@@ -32,9 +32,9 @@ if __name__ == '__main__':
 
     print(len(reviews))
 
-    print(BeautifulSoup(str(reviews[0]), 'lxml'))
+    # print(BeautifulSoup(str(reviews[0]), 'lxml'))
 
-    artista, titol, genere, url = [], [], [], []
+    artista, titol, genere, url, tipus, imatge = [], [], [], [], [], []
 
     for artist in soup.find_all('ul', class_="artist-list"):
         artista.append(artist.text)
@@ -52,17 +52,25 @@ if __name__ == '__main__':
         genere.append(genl.text)
 
     for div in soup.find_all('a', class_="bnm-hero__link-block"):
-        urll = url_site + div.attrs['href']
-        url.append(urll)
+        url.append(url_site + div.attrs['href'])
 
     for div in soup.find_all('a', class_="link-block"):
-        urll = url_site + div.attrs['href']
-        url.append(urll)
+        url.append(url_site + div.attrs['href'])
 
+    for urll in url:
+        if urll.find("/albums/") > 0:
+            tipus.append("album")
+        elif urll.find("/tracks/") > 0:
+            tipus.append("track")
+        else:
+            tipus.append("")
+
+    for divv in soup.find_all('div', class_="artwork"):
+        imatge.append(divv.find('img').attrs['src'])
 
     genere.insert(16, '')  # Missing genre in web
 
-    data_dict = {'artist': artista, 'title': titol, 'genre': genere, 'url': url}
+    data_dict = {'artist': artista, 'title': titol, 'genre': genere, 'url': url, 'type' : tipus, 'image' : imatge}
 
     print(len(artista))
 
@@ -71,6 +79,10 @@ if __name__ == '__main__':
     print(len(genere))
 
     print(len(url))
+
+    print(len(tipus))
+
+    print(len(imatge))
 
     df = pd.DataFrame(data_dict)
 
