@@ -14,6 +14,7 @@ Per fer-ho hem utilitzat les llibreries Requests, BeautifulSoup, Pandas i Urllib
 # Memebres del grup
 
 Omar Brid Roufak
+
 Montse Sanahuja Mateu
 
 # Fitxers del codi font
