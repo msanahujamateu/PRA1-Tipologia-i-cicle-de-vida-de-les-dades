@@ -1,22 +1,22 @@
-artist,title,genre,url
-Snail Mail,Valentine,Rock,https://pitchfork.com/reviews/albums/snail-mail-valentine/
-Jlin,“Embryo”,Electronic,https://pitchfork.com/reviews/tracks/jlin-embryo/
-John Coltrane,A Love Supreme: Live in Seattle,Jazz,https://pitchfork.com/reviews/albums/john-coltrane-a-love-supreme-live-in-seattle/
-aya,im hole,Electronic,https://pitchfork.com/reviews/albums/aya-im-hole/
-The War on Drugs,I Don’t Live Here Anymore,Rock,https://pitchfork.com/reviews/albums/the-war-on-drugs-i-dont-live-here-anymore/
-Grouper,Shade,Experimental,https://pitchfork.com/reviews/albums/grouper-shade/
-Xenia Rubinos,Una Rosa,Rock,https://pitchfork.com/reviews/albums/xenia-rubinos-una-rosa/
-Wiki,Half God,Rap,https://pitchfork.com/reviews/albums/wiki-half-god/
-Tirzah,Colourgrade,Experimental,https://pitchfork.com/reviews/albums/tirzah-colourgrade/
-The War on Drugs,“I Don’t Live Here Anymore”,Rock,https://pitchfork.com/reviews/tracks/the-war-on-drugs-i-dont-live-here-anymore/
-Snail Mail,“Valentine”,Rock,https://pitchfork.com/reviews/tracks/snail-mail-valentine/
-Water From Your Eyes,““Quotations””,Rock,https://pitchfork.com/reviews/tracks/water-from-your-eyes-quotations/
-Big Thief,“Little Things”,Rock,https://pitchfork.com/reviews/tracks/big-thief-little-things/
-Indigo De Souza,“Hold U”,Rock,https://pitchfork.com/reviews/tracks/indigo-de-souza-hold-u/
-Low,“Days Like These”,Rock,https://pitchfork.com/reviews/tracks/low-days-like-these/
-The Beatles,Let It Be (Super Deluxe) ,Rock,https://pitchfork.com/reviews/albums/the-beatles-let-it-be-super-deluxe/
-Pastor T. L. Barrett and the Youth for Christ Choir,I Shall Wear a Crown,,https://pitchfork.com/reviews/albums/pastor-t-l-barrett-and-the-youth-for-c-i-shall-wear-a-crown/
-Trashcan Sinatras,I’ve Seen Everything,Rock,https://pitchfork.com/reviews/albums/trashcan-sinatras-ive-seen-everything/
-Laura Nyro,American Dreamer,Rock,https://pitchfork.com/reviews/albums/laura-nyro-american-dreamer/
-Alice Coltrane,Kirtan: Turiya Sings,JazzExperimental,https://pitchfork.com/reviews/albums/alice-coltrane-kirtan-turiya-sings/
-“Blue” Gene Tyranny,Degrees of Freedom Found,Experimental,https://pitchfork.com/reviews/albums/blue-gene-tyranny-degrees-of-freedom-found/
+artist,title,genre,url,type,image
+Snail Mail,Valentine,Rock,https://pitchfork.com/reviews/albums/snail-mail-valentine/,album,https://media.pitchfork.com/photos/61412ae9d54eda5d82ec7010/1:1/w_320/01%20Snail%20Mail%20-%20Valentine%20Packshot.jpg
+Jlin,“Embryo”,Electronic,https://pitchfork.com/reviews/tracks/jlin-embryo/,track,https://media.pitchfork.com/photos/6171861448d55524f735175e/1:1/w_320/Embryo.jpeg
+John Coltrane,A Love Supreme: Live in Seattle,Jazz,https://pitchfork.com/reviews/albums/john-coltrane-a-love-supreme-live-in-seattle/,album,https://media.pitchfork.com/photos/612795465537dce55d2ccd3f/1:1/w_320/John-Coltrane.jpeg
+aya,im hole,Electronic,https://pitchfork.com/reviews/albums/aya-im-hole/,album,https://media.pitchfork.com/photos/61761cffcd0e490672793217/1:1/w_160/100000x100000-999.jpeg
+The War on Drugs,I Don’t Live Here Anymore,Rock,https://pitchfork.com/reviews/albums/the-war-on-drugs-i-dont-live-here-anymore/,album,https://media.pitchfork.com/photos/60f1a8e8c64eabe66d59cb87/1:1/w_160/The-War-on-Drugs.jpg
+Grouper,Shade,Experimental,https://pitchfork.com/reviews/albums/grouper-shade/,album,https://media.pitchfork.com/photos/60fb1c780f763fef3c3c6bf7/1:1/w_160/Grouper-Shade.jpg
+Xenia Rubinos,Una Rosa,Rock,https://pitchfork.com/reviews/albums/xenia-rubinos-una-rosa/,album,https://media.pitchfork.com/photos/60eda941f58acdeaaad0e47f/1:1/w_160/Xenia-Rubinos-Una-Rosa.jpeg
+Wiki,Half God,Rap,https://pitchfork.com/reviews/albums/wiki-half-god/,album,https://media.pitchfork.com/photos/612d9d52f64ed03c58cd3b97/1:1/w_160/Wiki%20-%20Half%20God.jpeg
+Tirzah,Colourgrade,Experimental,https://pitchfork.com/reviews/albums/tirzah-colourgrade/,album,https://media.pitchfork.com/photos/60d48cea1a8b4ef7b3aafce6/1:1/w_160/Tirzah-Colourgrade.jpg
+The War on Drugs,“I Don’t Live Here Anymore”,Rock,https://pitchfork.com/reviews/tracks/the-war-on-drugs-i-dont-live-here-anymore/,track,https://media.pitchfork.com/photos/60f1a8e8c64eabe66d59cb87/1:1/w_160/The-War-on-Drugs.jpg
+Snail Mail,“Valentine”,Rock,https://pitchfork.com/reviews/tracks/snail-mail-valentine/,track,https://media.pitchfork.com/photos/61424f6a4f9c18c6e9e77fcd/1:1/w_160/Snail-Mail-Valentine.jpeg
+Water From Your Eyes,““Quotations””,Rock,https://pitchfork.com/reviews/tracks/water-from-your-eyes-quotations/,track,https://media.pitchfork.com/photos/611577e37961053f3f0ebd17/1:1/w_160/quotations.jpeg
+Big Thief,“Little Things”,Rock,https://pitchfork.com/reviews/tracks/big-thief-little-things/,track,https://media.pitchfork.com/photos/6112e67fe948362f2f4af5e9/1:1/w_160/littlethings.jpeg
+Indigo De Souza,“Hold U”,Rock,https://pitchfork.com/reviews/tracks/indigo-de-souza-hold-u/,track,https://media.pitchfork.com/photos/60fb265dd79d8ab7a7bb168a/1:1/w_160/indigo.jpeg
+Low,“Days Like These”,Rock,https://pitchfork.com/reviews/tracks/low-days-like-these/,track,https://media.pitchfork.com/photos/60d246fb4d2d13ef18d3c72a/1:1/w_160/low_hey_what_album_artwork.jpg
+The Beatles,Let It Be (Super Deluxe) ,Rock,https://pitchfork.com/reviews/albums/the-beatles-let-it-be-super-deluxe/,album,https://media.pitchfork.com/photos/61674c78c35c407fc7c297c1/1:1/w_160/LqNMKVXbMCM_CD7138691.jpeg
+Pastor T. L. Barrett and the Youth for Christ Choir,I Shall Wear a Crown,,https://pitchfork.com/reviews/albums/pastor-t-l-barrett-and-the-youth-for-c-i-shall-wear-a-crown/,album,https://media.pitchfork.com/photos/6148e3560fc9ab36796880a7/1:1/w_160/100000x100000-999.jpeg
+Trashcan Sinatras,I’ve Seen Everything,Rock,https://pitchfork.com/reviews/albums/trashcan-sinatras-ive-seen-everything/,album,https://media.pitchfork.com/photos/614e42d2d3a861d44aafa2fa/1:1/w_160/TrashcanSinatras.jpg
+Laura Nyro,American Dreamer,Rock,https://pitchfork.com/reviews/albums/laura-nyro-american-dreamer/,album,https://media.pitchfork.com/photos/6143ac690fc9ab3679688005/1:1/w_160/636551917650.jpeg
+Alice Coltrane,Kirtan: Turiya Sings,JazzExperimental,https://pitchfork.com/reviews/albums/alice-coltrane-kirtan-turiya-sings/,album,https://media.pitchfork.com/photos/60b7851c28fd170dc6ddccb6/1:1/w_160/Alice-Coltrane-Kirtan-Turiya-Sings.jpeg
+“Blue” Gene Tyranny,Degrees of Freedom Found,Experimental,https://pitchfork.com/reviews/albums/blue-gene-tyranny-degrees-of-freedom-found/,album,https://media.pitchfork.com/photos/60c3787542a3ecb7ba101128/1:1/w_160/%22Blue%22%20Gene%20Tyranny:%20Degrees%20of%20Freedom%20Found.jpeg
