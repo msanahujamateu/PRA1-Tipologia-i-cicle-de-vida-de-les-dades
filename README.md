@@ -19,7 +19,7 @@ Montse Sanahuja Mateu
 
 # Fitxers del codi font
 
-codi/main.py - programa principal per realitzar el web scraping
+main.py - programa principal per realitzar el web scraping
 
 Per executar aquest script és necessari instal·lar les llibreries següents:
 
