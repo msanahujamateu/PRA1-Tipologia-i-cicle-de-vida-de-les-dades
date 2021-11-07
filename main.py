@@ -6,13 +6,15 @@ from urllib import robotparser
 if __name__ == '__main__':
     url_scrap = 'https://pitchfork.com/best/'
     url_robots = 'https://pitchfork.com/robots.txt'
+    url_site = 'https://pitchfork.com'
 
     # Check de l'arxiu robots.txt
     rp = robotparser.RobotFileParser()
     rp.set_url(url_robots)
     rp.read()
-    print(rp.crawl_delay("*"))
-    print(rp.can_fetch("*", url_scrap))
+    # print(rp.crawl_delay("*"))
+    # print(rp.can_l_delay("*"))
+    # print(rp.can_fetch("*", url_scrap))
 
     # Create a Request object by gathering information from the URL below
     page = requests.get(url_scrap)
@@ -32,7 +34,7 @@ if __name__ == '__main__':
 
     print(BeautifulSoup(str(reviews[0]), 'lxml'))
 
-    artista, titol, genere = [], [], []
+    artista, titol, genere, url = [], [], [], []
 
     for artist in soup.find_all('ul', class_="artist-list"):
         artista.append(artist.text)
@@ -49,15 +51,26 @@ if __name__ == '__main__':
     for genl in soup.find_all('ul', class_="genre-list genre-list--inline"):
         genere.append(genl.text)
 
+    for div in soup.find_all('a', class_="bnm-hero__link-block"):
+        urll = url_site + div.attrs['href']
+        url.append(urll)
+
+    for div in soup.find_all('a', class_="link-block"):
+        urll = url_site + div.attrs['href']
+        url.append(urll)
+
+
     genere.insert(16, '')  # Missing genre in web
 
-    data_dict = {'artist': artista, 'title': titol, 'genre': genere}
+    data_dict = {'artist': artista, 'title': titol, 'genre': genere, 'url': url}
 
     print(len(artista))
 
     print(len(titol))  # Three of them have class bnm-hero__title, label h3
 
     print(len(genere))
+
+    print(len(url))
 
     df = pd.DataFrame(data_dict)
 
