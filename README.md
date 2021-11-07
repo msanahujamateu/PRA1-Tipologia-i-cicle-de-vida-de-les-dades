@@ -1,4 +1,4 @@
-# Els millors àlbums i música segons Pitchfork
+# Els millors àlbums i cançons segons Pitchfork
 Tipologia i cicle de vida de les dades
 
 PRA 1 Web Scraping
