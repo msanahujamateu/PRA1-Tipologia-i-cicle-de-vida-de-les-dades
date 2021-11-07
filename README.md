@@ -7,7 +7,7 @@ PRA 1 Web Scraping
 
 En aquest treball s’ha realitzat web scraping a la pàgina web https://pitchfork.com/best/. Aquesta pàgina conté un recull dels millors àlbums de música, cançons i reedicions nous i per cada un d’ells conté una revisió.
 
-En aquest Web Scraping s’ha volgut emmagatzemar en un fitxer CSV els noms dels àlbums, cançons i reedicions juntament amb els noms dels artistes, el gènere i les URL de les revisions de cada una de les cançons. 
+En aquest Web Scraping s’ha volgut emmagatzemar en un fitxer CSV els noms dels àlbums o cançons juntament amb els noms dels artistes, el gènere i les URL de les revisions de cada una de les cançons i de les imatges de la portada. 
 
 Per fer-ho hem utilitzat les llibreries Requests, BeautifulSoup, Pandas i Urllib de Python.
 
