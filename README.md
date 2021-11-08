@@ -35,6 +35,11 @@ El script s’ha d’executar de la següent manera:
 
 python main.py
 
+# Dataset
+
+El dataset generat es pot trobar al següent link de Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5655025.svg)](https://doi.org/10.5281/zenodo.5655025)
+
+
 # Recursos
 
 Lawson, R. (2015). Web Scraping with Python. Packt Publishing Ltd. Chapter 2. Scraping the Data.
