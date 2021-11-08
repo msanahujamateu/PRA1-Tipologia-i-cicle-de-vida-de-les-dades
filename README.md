@@ -37,7 +37,6 @@ python main.py
 
 # Dataset
 
-El dataset generat es pot trobar al següent link de Zenodo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5655025.svg)](https://doi.org/10.5281/zenodo.5655025)
 
 
